@@ -13,59 +13,58 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <div class="bg-darkgray">
-      <!-- navbarを作成 -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <a class="navbar-brand text-light" href="#">KKZoo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Link</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <!-- navbarを作成 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+      <a class="navbar-brand text-light" href="#">KKZoo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       
-      <!--jumbotronを追加 -->
-      <div class="container">
-        <div class="jumbotron mt-2">
-          <p  class="h1 orange">Bootstrap4の練習サイト</p>
-          <p>ここはKKZooがBootstrap4の練習で作ったサイトです。</p>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Link</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <!--jumbotronを追加 -->
+    <div class="container">
+      <div class="jumbotron mt-2">
+        <p  class="h1 orange">Bootstrap4の練習サイト</p>
+        <p>ここはKKZooがBootstrap4の練習で作ったサイトです。</p>
+      </div>
+    </div>
+
+    <!-- grid systemを用いたレイアウトの作成 -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-4 mr-sm-3 orange">
+          <p class="h5">左の部分は入れ子<p>
+          <div class="row">
+            <div class="col-12">
+              <img class="img-size mb-2" src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9">
+              <img class="img-size mb-2" src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9">
+              <img class="img-size mb-2" src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9">
+            </div>    
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-8 col-sm-7 orange">
+          <p class="h5">右の部分</p>
+          <p>
+            日本国民は、正当に選挙された国会における代表者を通じて行動し、われらとわれらの子孫のために、諸国民との協和による成果と、わが国全土にわたつて自由のもたらす恵沢を確保し、政府の行為によつて再び戦争の惨禍が起ることのないやうにすることを決意し、ここに主権が国民に存することを宣言し、この憲法を確定する。そもそも国政は、国民の厳粛な信託によるものであつて、その権威は国民に由来し、その権力は国民の代表者がこれを行使し、その福利は国民がこれを享受する。これは人類普遍の原理であり、この憲法は、かかる原理に基くものである。われらは、これに反する一切の憲法、法令及び詔勅を排除する。日本国民は、恒久の平和を念願し、人間相互の関係を支配する崇高な理想を深く自覚するのであつて、平和を愛する諸国民の公正と信義に信頼して、われらの安全と生存を保持しようと決意した。われらは、平和を維持し、専制と隷従、圧迫と偏狭を地上から永遠に除去しようと努めてゐる国際社会において、名誉ある地位を占めたいと思ふ。われらは、全世界の国民が、ひとしく恐怖と欠乏から免かれ、平和のうちに生存する権利を有することを確認する。われらは、いづれの国家も、自国のことのみに専念して他国を無視してはならないのであつて、政治道徳の法則は、普遍的なものであり、この法則に従ふことは、自国の主権を維持し、他国と対等関係に立たうとする各国の責務であると信ずる。日本国民は、国家の名誉にかけ、全力をあげてこの崇高な理想と目的を達成することを誓ふ。日本国民は、正当に選挙された国会における代表者を通じて行動し、われらとわれらの子孫のために、諸国民との協和による成果と、わが国全土にわたつて自由のもたらす恵沢を確保し、政府の行為によつて再び戦争の惨禍が起ることのないやうにすることを決意し、ここに主権が国民に存することを宣言し、この憲法を確定する。そもそも国政は、
+          </p>
         </div>
       </div>
-  
-      <!-- grid systemを用いたレイアウトの作成 -->
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-2 col-md-3 col-sm-4 mr-sm-3 orange">
-            <p class="h5">左の部分は入れ子<p>
-            <div class="row">
-              <div class="col-12">
-                <img class="img-size mb-2" src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9">
-                <img class="img-size mb-2" src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9">
-                <img class="img-size mb-2" src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9">
-              </div>    
-            </div>
-          </div>
-          <div class="col-lg-9 col-md-8 col-sm-7 orange">
-            <p class="h5">右の部分</p>
-            <p>
-              日本国民は、正当に選挙された国会における代表者を通じて行動し、われらとわれらの子孫のために、諸国民との協和による成果と、わが国全土にわたつて自由のもたらす恵沢を確保し、政府の行為によつて再び戦争の惨禍が起ることのないやうにすることを決意し、ここに主権が国民に存することを宣言し、この憲法を確定する。そもそも国政は、国民の厳粛な信託によるものであつて、その権威は国民に由来し、その権力は国民の代表者がこれを行使し、その福利は国民がこれを享受する。これは人類普遍の原理であり、この憲法は、かかる原理に基くものである。われらは、これに反する一切の憲法、法令及び詔勅を排除する。日本国民は、恒久の平和を念願し、人間相互の関係を支配する崇高な理想を深く自覚するのであつて、平和を愛する諸国民の公正と信義に信頼して、われらの安全と生存を保持しようと決意した。われらは、平和を維持し、専制と隷従、圧迫と偏狭を地上から永遠に除去しようと努めてゐる国際社会において、名誉ある地位を占めたいと思ふ。われらは、全世界の国民が、ひとしく恐怖と欠乏から免かれ、平和のうちに生存する権利を有することを確認する。われらは、いづれの国家も、自国のことのみに専念して他国を無視してはならないのであつて、政治道徳の法則は、普遍的なものであり、この法則に従ふことは、自国の主権を維持し、他国と対等関係に立たうとする各国の責務であると信ずる。日本国民は、国家の名誉にかけ、全力をあげてこの崇高な理想と目的を達成することを誓ふ。日本国民は、正当に選挙された国会における代表者を通じて行動し、われらとわれらの子孫のために、諸国民との協和による成果と、わが国全土にわたつて自由のもたらす恵沢を確保し、政府の行為によつて再び戦争の惨禍が起ることのないやうにすることを決意し、ここに主権が国民に存することを宣言し、この憲法を確定する。そもそも国政は、
-            </p>
-          </div>
-        </div>
     </div>
 
     <!-- フッターの作成 -->
     <!--Author部分-->
-    <div class="row bg-primary mt-2">
+    <div class="row bg-primary mt-4">
       <div class="col-sm-4">
         <div class="container">
           <div class="h5 text-white">Author : </div>
@@ -94,7 +93,6 @@
           </ul>
         </div>
       </div>
-    </div>
     </div>
 
     <!-- Optional JavaScript -->

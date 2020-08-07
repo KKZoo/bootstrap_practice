@@ -1,10 +1,11 @@
+body{
+  padding-top: 5rem;
+  background: #a9a9a9;
+}
+
 .orange{
   background: orange;  
   border: 1px solid;
-}
-
-.bg-darkgray{
-  background: #a9a9a9;
 }
 
 .img-size{
