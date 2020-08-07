@@ -3,8 +3,16 @@
   border: 1px solid;
 }
 
+.bg-darkgray{
+  background: #a9a9a9;
+}
+
 .img-size{
   width: 100%;
+}
+
+li{
+  list-style: none;
 }
 
 .navbar-light .navbar-toggler{
